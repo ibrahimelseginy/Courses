@@ -3,6 +3,7 @@ import 'package:courses/models/course.dart';
 import 'package:courses/widgets/course_widget.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class HomePage extends StatelessWidget {
   HomePage({super.key});
   List<Course> courses = [
